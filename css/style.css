@@ -107,8 +107,8 @@
 
 	header.major {
 		padding-bottom: 3em;
-		text-align: center;
-		text-transform: uppercase;
+		text-align: justify;
+		/*text-transform: uppercase;*/
 	}
 
 		header.major h2 {
@@ -494,7 +494,7 @@
 					margin-bottom: 0.70em;
 					letter-spacing: 1px;
 					line-height: 1.4em;
-					text-transform: uppercase;
+					/*text-transform: uppercase;*/
 					font-size: 1.8em;
 					font-weight: 400;
 				}
@@ -518,7 +518,7 @@
 
 		.wrapper.style3 {
 			padding-top: 2em;
-			padding-bottom: 1em;
+			/*padding-bottom: 1em;*/
 			/*background: #82b440;*/
 			background: rgb(0,140,0);
 			text-align: center;
@@ -526,12 +526,14 @@
 		}
 		
 		.wrapper.style3 h2 {
+			font-size: 220%;
+			text-align: center;
 			line-height:100%;
 		}
 
 			.wrapper.style3 .container {
-				padding-left: 6em;
-				padding-right: 6em;
+				padding-left: 0em;
+				padding-right: 0em;
 			}
 
 			.wrapper.style3 p {
@@ -555,18 +557,21 @@
 		.wrapper.style4 a{
 			text-align: center;
 		}
-
+		
 		.wrapper.style5 {
 			/*background: #82b440;*/
 			background: rgb(0,140,0);
 			text-align: center;
 			color: white;
 		}
+			.wrapper.style5 a{
+				color: white;
+			}
 
 			.wrapper.style5 .image {
 				display: block;
 				width: 60%;
-				margin: 0em auto 2em auto;
+				margin: 0em auto 0em auto;
 			}
 
 				.wrapper.style5 .image img {
@@ -693,36 +698,37 @@
 /* Banner */
 
 	#banner {
-		padding: 6em 0em 3em 0em;
+		padding: 18em 0em 0.5em 0em;
 		text-align: center;
-		text-transform: uppercase;
 		color: white;
 	}
 
 		#banner .container {
-			padding: 0em 8em;
+			/*padding: 0em 8em;*/
 		}
 
 		#banner h2 {
 			display: inline-block;
 			padding: 0.50em 0.30em;
+			text-transform: uppercase;
 			/*background: #82b440;*/
-			background: rgb(0,140,0);
+			/*background: rgb(0,140,0);*/
 			font-size: 3em;
-			font-weight: 400;
+			font-weight: 600;
 		}
 
 		#banner span, #banner p {
 			display: block;
-			letter-spacing: 1px;
-			text-transform: uppercase;
-			font-size: 1.6em;
-			font-weight: 300;
-			background-color: rgba(0,0,0,0.2);
+			/*letter-spacing: 1px;*/
+			/*text-transform: uppercase;*/
+			font-size: 1.5em;
+			line-height:150%;
+			font-weight: 500;
+			/*background-color: rgba(0,0,0,0.2);*/
 		}
 
 		#banner span {
-			padding: 1em 0em;
+			/*padding: 1em 0em;*/
 		}
 
 /* Main */
